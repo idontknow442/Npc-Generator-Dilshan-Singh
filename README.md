@@ -14,7 +14,7 @@
 
 ## Overview
 
-I made a generator that makes 10 npcs with random atrributes using python. I used [while loop] to make 10 npcs.
+I made a generator that makes 10 npcs with random atrributes using python. I used [while loop](#While-Loop-Explained) to make 10 npcs.
 
 This generator I made consists of 6 attributes which are listed below
 
