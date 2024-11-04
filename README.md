@@ -14,19 +14,25 @@
 
 ## Overview
 
+I made a generator that makes 10 npcs with random atrributes using python. I used [while loop] to make 10 npcs.
+
 This generator I made consists of 6 attributes which are listed below
 
  - [Name](#Name-Explained)
  
- - Age
+ - [Age](#Age-Explained)
  
- - Height
+ - [Height](#Height-Explained)
  
  - Hair Color
  
  - Super Power
  
  - Race
+
+### While Loop Explained
+
+ I made a while loop to make the code repeat 10 times. I did this by making a variable called "numberofnpc" equal to 0. Then I made it so if the 
 
 ### Name Explained
 
@@ -37,3 +43,20 @@ This generator I made consists of 6 attributes which are listed below
 
 ### Age Explained
 
+ For the age, the first thing I did was make a list of ages and put it into a variable.
+
+     age = [14,53,12,43,93,29,49,19,29,59,96,95,43,12,5,1,6,34,19,20]
+
+ Then inside the while loop, I made it print a random age from the list for the npc.
+
+     print('Age:',random.choice(age))
+
+ ### Height Explained
+ 
+ For the height I made a list of heights and put it into a variable.
+
+     height = [5.0,5.1,5.2,5.3,5.4,5.5,5.6,5.7,5.8,5.9,5.10,5.11,6.0,6.1,6.2,6.3,6.4,6.5,6.6]
+
+ Then inside the while loop, I made it print a random height from the list for the npc.
+
+     print('Height:',random.choice(height))
