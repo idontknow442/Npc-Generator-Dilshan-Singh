@@ -24,18 +24,22 @@ This generator I made consists of 6 attributes which are listed below
  
  - [Height](#Height-Explained)
  
- - Hair Color
+ - [Hair Color](#Hair-Color-Explained)
  
- - Super Power
+ - [Super Power](#Super-Power-Explained)
  
- - Race
+ - [Race](#Race-Explained)
 
 ### While Loop Explained
 
- I made a while loop to make the code repeat 10 times. I did this by making a variable called "numberofnpc" equal to 0. Then I made it so if the 
+ I made a while loop to make the code repeat 10 times. I did this by making a variable called "numberofnpc" equal to 0. Then I made it so
+ if the value of the variable was less than 10, than it would repeat and everytime the loop repeats, the value of the variable adds by 1 until 10.
+     
+        numberofnpc = 0
+    while numberofnpc < 10:
+        numberofnpc +=1
 
 ### Name Explained
-
 
  I simply just made an input for the name of the npc as shown.
 
@@ -60,3 +64,35 @@ This generator I made consists of 6 attributes which are listed below
  Then inside the while loop, I made it print a random height from the list for the npc.
 
      print('Height:',random.choice(height))
+
+ ### Hair Color Explained
+
+ For the hair color, I made a list of different hair colors and put it into a variable called haircolor.
+
+     haircolor = ['Black','Brown','Blonde','Pink','Green','Purple','Orange','Red','Blue']
+ 
+ Then inside the while loop, I made it print a random hair color from the list for the npc.
+
+     print('Hair Color:',random.choice(haircolor))
+
+ ### Super Power Explained
+
+ For the super power, I made a list of different super powers and put it into a variable.
+
+     superpower = ['Night Vision','Teleportation','Invisibility','Invicibility','Telekinesis','Super Strength','Flight','Time Travel']
+ 
+ Then inside the while loop, I made it print a random super power from the list for the npc.
+
+     print('Super Power:',random.choice(superpower))
+
+ ### Race Explained
+
+ For the race, I made a list that contained 4 different races and put it into a variable.
+
+     race = ['African','Asian','Hispanic','American']
+ 
+ Then inside the while loop, I made it print a random race from the list for the npc.
+
+     print('Race:',random.choice(race))
+
+ ## I Hope You Enjoyed!
